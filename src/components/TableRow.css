@@ -1,0 +1,12 @@
+.table-row {
+  transition: background 0.3s ease-in-out;
+}
+
+.table-cell {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table-row:hover {
+  background-color: #cbd5e1;
+}
