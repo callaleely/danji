@@ -1,8 +1,8 @@
 {
   "name": "danji3",
   "version": "0.1.0",
+  "homepage": "https://callaleely.github.io/danji.github.io/",
   "private": true,
-  "homepage": "https://callaleely.github.io/danji",
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.15",
     "@testing-library/dom": "^10.4.0",
