@@ -1,6 +1,7 @@
 import React from 'react';
 import Subtitle from '../components/Subtitle';
 import Table from '../components/Table';
+import CardContainer from '../components/CardContainer';
 
 const Earn: React.FC = () => {
   const tableData = [
@@ -12,8 +13,10 @@ const Earn: React.FC = () => {
 
   return (
     <div className="page-container">
-      <Subtitle text="Welcome to Compound Blue - Earn Section" />
-      <Table data={tableData} />
+      <Subtitle text="Welcome to Danji - Earn Section" />
+      <CardContainer>
+        <Table data={tableData} />
+      </CardContainer>
     </div>
   );
 };

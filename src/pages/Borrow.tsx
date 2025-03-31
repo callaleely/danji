@@ -1,6 +1,7 @@
 import React from 'react';
 import Subtitle from '../components/Subtitle';
 import Table from '../components/Table';
+import CardContainer from '../components/CardContainer'
 
 const Borrow: React.FC = () => {
   const tableData = [
@@ -12,8 +13,10 @@ const Borrow: React.FC = () => {
 
   return (
     <div className="page-container">
-      <Subtitle text="Welcome to Compound Blue - Borrow Section" />
-      <Table data={tableData} />
+      <Subtitle text="Welcome to Danji - Borrow Section" />
+      <CardContainer>
+        <Table data={tableData} />
+      </CardContainer>
     </div>
   );
 };
