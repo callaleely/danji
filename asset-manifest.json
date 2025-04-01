@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/danji/static/css/main.cd64ceb6.css",
-    "main.js": "/danji/static/js/main.d261f8a3.js",
+    "main.css": "/danji/static/css/main.490ac030.css",
+    "main.js": "/danji/static/js/main.6fb85298.js",
     "static/js/453.7d18b757.chunk.js": "/danji/static/js/453.7d18b757.chunk.js",
     "index.html": "/danji/index.html",
-    "main.cd64ceb6.css.map": "/danji/static/css/main.cd64ceb6.css.map",
-    "main.d261f8a3.js.map": "/danji/static/js/main.d261f8a3.js.map",
+    "main.490ac030.css.map": "/danji/static/css/main.490ac030.css.map",
+    "main.6fb85298.js.map": "/danji/static/js/main.6fb85298.js.map",
     "453.7d18b757.chunk.js.map": "/danji/static/js/453.7d18b757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd64ceb6.css",
-    "static/js/main.d261f8a3.js"
+    "static/css/main.490ac030.css",
+    "static/js/main.6fb85298.js"
   ]
 }
