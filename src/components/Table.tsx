@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import TableRow from './TableRow';
 import './Table.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSortUp, faSortDown } from '@fortawesome/free-solid-svg-icons';
 
 interface TableProps {
   data: { [key: string]: string | number }[];
@@ -33,9 +35,8 @@ const Table: React.FC<TableProps> = ({ data }) => {
         <tr>
           {Object.keys(data[0]).map((key) => (
             <th key={key} className="table-header" onClick={() => handleSort(key)}>
-              {key} {sortConfig?.key === key ? (sortConfig.direction === 'asc' ? '🔼' : '🔽') : ''}
-            </th>
-          ))}
+              {key} {sortConfig?.key === key ? (<FontAwesomeIcon icon={sortConfig.direction === 'asc' ? faSortUp : faSortDown} />) : ''}
+            </th>))}
         </tr>
       </thead>
       <tbody>
