@@ -1,15 +1,8 @@
-.details-page {
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
 .details-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 8px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 0;
 }
 
 .details-text {

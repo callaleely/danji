@@ -28,24 +28,22 @@ const Table: React.FC<TableProps> = ({ data }) => {
   };
 
   return (
-    <div className="table-container">
-      <table className="styled-table">
-        <thead>
-          <tr>
-            {Object.keys(data[0]).map((key) => (
-              <th key={key} className="table-header" onClick={() => handleSort(key)}>
-                {key} {sortConfig?.key === key ? (sortConfig.direction === 'asc' ? '🔼' : '🔽') : ''}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {sortedData.map((row, index) => (
-            <TableRow key={index} row={row} />
+    <table className="styled-table">
+      <thead>
+        <tr>
+          {Object.keys(data[0]).map((key) => (
+            <th key={key} className="table-header" onClick={() => handleSort(key)}>
+              {key} {sortConfig?.key === key ? (sortConfig.direction === 'asc' ? '🔼' : '🔽') : ''}
+            </th>
           ))}
-        </tbody>
-      </table>
-    </div>
+        </tr>
+      </thead>
+      <tbody>
+        {sortedData.map((row, index) => (
+          <TableRow key={index} row={row} />
+        ))}
+      </tbody>
+    </table>  
   );
 };
 

@@ -1,4 +1,22 @@
 .card-container {
   display: flex;
-  background-color: black;
+  flex-direction: column;
+  background-color: #acacac;
+  border-radius: 6px;
+  margin: 15px;
+  
+  .card-title {
+    color: white;
+    padding: 15px 10px;
+  }
+
+  .card-content {
+    display: flex;
+    overflow-y: auto;
+    background: #BFC5CA;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
 }

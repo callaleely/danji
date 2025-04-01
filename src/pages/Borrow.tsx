@@ -14,7 +14,7 @@ const Borrow: React.FC = () => {
   return (
     <div className="page-container">
       <Subtitle text="Welcome to Danji - Borrow Section" />
-      <CardContainer>
+      <CardContainer title="Markets">
         <Table data={tableData} />
       </CardContainer>
     </div>
